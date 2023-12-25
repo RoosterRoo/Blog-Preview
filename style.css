@@ -9,12 +9,13 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  margin: 1em;
+  margin: 2em;
   padding: 1em;
   border: 1px solid black;
   border-radius: 1.5rem;
@@ -29,12 +30,18 @@ body {
 }
 
 .tag {
+  font-weight: 800;
   background-color: hsl(47, 88%, 63%);
   color: hsl(0, 0%, 7%);
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0.25em;
+  padding: 0.5em;
   border-radius: 8px;
+}
+
+.content p {
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
 }
 
 .user {
@@ -44,6 +51,10 @@ body {
 
 .user img {
   margin-right: 1em;
+}
+
+.user p {
+  font-weight: 800;
 }
 
 .attribution {
