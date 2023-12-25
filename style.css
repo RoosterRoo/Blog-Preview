@@ -1,0 +1,52 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  margin: 1em;
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  max-width: 336px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0.5rem 0.5rem black, 0 0.25rem;
+}
+
+.header img {
+  border-radius: 1.5rem;
+}
+
+.tag {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25em;
+  border-radius: 8px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  margin-right: 1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
