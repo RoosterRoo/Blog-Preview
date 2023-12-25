@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,10 +12,13 @@ body {
 }
 
 .container {
-  margin: 2em;
-  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
   border: 1px solid black;
   border-radius: 1.5rem;
+  transform: scale(0.8);
   max-width: 336px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0.5rem 0.5rem black, 0 0.25rem;
